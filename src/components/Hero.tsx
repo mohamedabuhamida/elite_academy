@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Play } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { heroTranslations } from "@/translations/hero";
+import Link from "next/link";
 import ScrollIndicator from "./ScrollIndicator";
 
 export default function Hero() {
@@ -45,7 +46,7 @@ export default function Hero() {
         >
           {/* Explore Programs */}
           <button className="px-8 py-4 bg-gold text-primary rounded-xl font-semibold hover:opacity-90 transition-all duration-300">
-            {t.explore}
+            <Link href={"/courses"}>{t.explore}</Link>
           </button>
         </motion.div>
       </div>
