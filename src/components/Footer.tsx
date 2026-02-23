@@ -13,6 +13,7 @@ import {
 import { useLanguage } from "@/context/LanguageContext";
 import { footerTranslations } from "@/translations/footer";
 import Image from "next/image";
+import { dir } from "console";
 
 export default function Footer() {
   const { language } = useLanguage();
@@ -75,7 +76,7 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-gold mt-1" />
                 <div>
-                  <p className="text-white/70">+201271113720</p>
+                  <p className={`text-white/70 `} style={isRTL ? { direction: "ltr" } : {}}>+20 127 111 3720</p>
                 </div>
               </div>
 

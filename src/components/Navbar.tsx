@@ -103,13 +103,6 @@ export default function Navbar() {
               >
                 {t.login}
               </Link>
-
-              <Link
-                href="/signup"
-                className="bg-cream text-primary px-4 py-1 rounded hover:opacity-90 transition"
-              >
-                {t.register}
-              </Link>
             </div>
           ) : (
             <button
@@ -156,7 +149,6 @@ export default function Navbar() {
               {!user ? (
                 <>
                   <Link href="/login">{t.login}</Link>
-                  <Link href="/signup">{t.register}</Link>
                 </>
               ) : (
                 <button onClick={handleLogout}>

@@ -83,7 +83,7 @@ export default function Specializations() {
           viewport={{ once: true }}
           className="text-center mb-24"
         >
-          <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">
+          <h2 className="text-5xl md:text-6xl font-bold text-white mb-6 ">
             {content.sectionTitle}
           </h2>
           <div className="w-24 h-1 bg-[#C6A75E] mx-auto"></div>
@@ -102,9 +102,9 @@ export default function Specializations() {
                 y: -10,
                 boxShadow: "0 20px 40px rgba(198, 167, 94, 0.3)",
               }}
-              className="bg-[#F5E9DC] rounded-2xl p-10 shadow-lg hover:border-2 hover:border-[#C6A75E] transition-all duration-300 group"
+              className="bg-[#F5E9DC] rounded-2xl py-10 px-5 flex flex-col w-full justify-center items-center shadow-lg hover:border-2 hover:border-[#C6A75E] transition-all duration-300 group"
             >
-              <div className="flex justify-center mb-8">
+              <div className="flex justify-center mb-8 w-full">
                 <div className="w-20 h-20 bg-linear-to-br from-[#3E0000] to-[#5a0000] rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <spec.icon
                     className="w-10 h-10 text-[#C6A75E]"
@@ -113,7 +113,7 @@ export default function Specializations() {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-[#3E0000] mb-4 text-center">
+              <h3 className="text-2xl font-bold text-[#3E0000] mb-4 text-center text-nowrap w-full">
                 {spec.title}
               </h3>
 

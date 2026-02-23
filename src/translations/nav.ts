@@ -5,8 +5,7 @@ export const navTranslations = {
     courses: "Courses",
     about: "About Us",
     contact: "Contact Us",
-    login: "Login",
-    register: "Register",
+    login: "Get Started",
   },
   ar: {
     home: "الرئيسية",
@@ -14,8 +13,7 @@ export const navTranslations = {
     courses: "الكورسات",
     about: "من نحن",
     contact: "تواصل معنا",
-    login: "تسجيل الدخول",
-    register: "سجل الان",
+    login: "اشترك الان",
   
   },
 }

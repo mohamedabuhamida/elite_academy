@@ -9,7 +9,7 @@ export default function ScrollIndicator() {
 
   return (
     <motion.div
-      className={`absolute bottom-30 transform left-1/2 -translate-x-1/2`}
+      className={`absolute bottom-20 transform left-1/2 -translate-x-1/2`}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 1.5, duration: 1 }}
